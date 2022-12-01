@@ -63,14 +63,6 @@ The database comes pre-populated with these user accounts created as part of the
      npm run dev
      ```
 
-8) Modify the password of the cypress.env.json file:
-     ```
-     {
-         "password": ""
-
-      }
-     ```
-
 #### Customizing the Default Application Configuration
 
 By default the application will be hosted on port 4000 and will connect to a MongoDB instance at localhost:27017. To change this set the environment variables `PORT` and `MONGODB_URI`.
